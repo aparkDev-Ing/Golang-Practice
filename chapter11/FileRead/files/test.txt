@@ -1,0 +1,32 @@
+aaronpark@Aarons-MacBook-Air csv % go run .
+go: warning: ignoring go.mod in $GOPATH /Users/aaronpark/desktop/studies/go
+Error Occurred: open files/test.csv: no such file or directory
+panic: open files/test.csv: no such file or directory
+
+goroutine 1 [running]:
+main.errorCheck({0x104bf5718, 0x140000a40f0})
+        /Users/aaronpark/Desktop/Studies/Go/chapter11/csv/csv.go:14 +0x94
+main.main()
+        /Users/aaronpark/Desktop/Studies/Go/chapter11/csv/csv.go:22 +0x54
+exit status 2
+aaronpark@Aarons-MacBook-Air csv % pwd
+/Users/aaronpark/Desktop/Studies/Go/chapter11/csv
+aaronpark@Aarons-MacBook-Air csv % clear
+aaronpark@Aarons-MacBook-Air csv % go run .
+go: warning: ignoring go.mod in $GOPATH /Users/aaronpark/desktop/studies/go
+Error Occurred: open files/test.csv: no such file or directory
+panic: open files/test.csv: no such file or directory
+
+goroutine 1 [running]:
+main.errorCheck({0x1010e9718, 0x140001020f0})
+        /Users/aaronpark/Desktop/Studies/Go/chapter11/csv/csv.go:14 +0x94
+main.main()
+        /Users/aaronpark/Desktop/Studies/Go/chapter11/csv/csv.go:22 +0x54
+exit status 2
+aaronpark@Aarons-MacBook-Air csv % mkdir files
+aaronpark@Aarons-MacBook-Air csv % go run .   
+go: warning: ignoring go.mod in $GOPATH /Users/aaronpark/desktop/studies/go
+10
+test.csv
+-rw-r--r--
+aaronpark@Aarons-MacBook-Air csv % 
